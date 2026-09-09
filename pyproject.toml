@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oplog-fde"
+version = "0.1.0"
+description = "Operation-log segmentation and automation proposal"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2,<9",
+    "ruff>=0.6,<1",
+]
+
+[project.scripts]
+oplog-audit = "oplog_fde.validation.audit:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/oplog_fde"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
