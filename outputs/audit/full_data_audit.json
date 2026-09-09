@@ -1,0 +1,477 @@
+{
+  "audit_version": "0.1.0",
+  "source": "C:\\Rig\\Pandoras BOX\\imbesideyou-data",
+  "source_type": "directory",
+  "member_count": 39712,
+  "duplicate_member_paths": [],
+  "duplicate_logical_files": [],
+  "datasets": {
+    "dataset_a": {
+      "effective_roots": [
+        "dataset_a"
+      ],
+      "sessions": 63,
+      "chunks": 133,
+      "file_counts": {
+        "screenshots/*": 34563,
+        "events.jsonl": 117,
+        "manifest.json": 117,
+        "gt.jsonl": 63,
+        "gt_manifest.json": 63
+      },
+      "event_count": 162768,
+      "gt_record_count": 10609,
+      "event_types": {
+        "app_switch": 50588,
+        "keystroke": 38717,
+        "screenshot_smart": 34580,
+        "shortcut": 13668,
+        "mouse_click": 6177,
+        "browser_click": 5365,
+        "clipboard_change": 5198,
+        "mouse_scroll": 3180,
+        "browser_form_input": 1805,
+        "browser_navigation": 1725,
+        "window_title_change": 451,
+        "window_state_change": 232,
+        "browser_error": 200,
+        "extension_disconnected": 172,
+        "browser_alert": 137,
+        "text_input_complete": 118,
+        "browser_tab_event": 103,
+        "session_start": 63,
+        "session_end": 61,
+        "extension_connected": 54,
+        "upload_started": 53,
+        "upload_completed": 46,
+        "dialog_opened": 28,
+        "dialog_closed": 28,
+        "mouse_double_click": 10,
+        "upload_failed": 5,
+        "mouse_drag_drop": 4
+      },
+      "layers": {
+        "L2": 118399,
+        "L1": 34580,
+        "L3": 9335,
+        "SYSTEM": 454
+      },
+      "applications": {
+        "Google Chrome": 118134,
+        "Notepad": 30234,
+        "Microsoft Word": 5365,
+        "Microsoft PowerPoint": 3234,
+        "Windows Explorer": 1948,
+        "WindowsTerminal": 1687,
+        "Microsoft Excel": 887,
+        "procmine-desktop-agent": 320,
+        "olk": 182,
+        "Settings": 126,
+        "ms-teams": 88,
+        "prl_cc": 46,
+        "claude": 16,
+        "powershell": 15,
+        "Microsoft Outlook": 6,
+        "unknown": 5,
+        "SearchHost": 2,
+        "AsusKeyboardHost": 1
+      },
+      "operators": 8,
+      "machines": 8,
+      "events_with_extracted_text": 7300,
+      "screenshot_references": 34580,
+      "out_of_order_events": 15231,
+      "duplicate_event_ids": 0,
+      "duplicate_event_content": 0,
+      "session_id_mismatches": 0,
+      "timestamp_ms_iso_mismatches": 0,
+      "missing_expected_event_keys": {},
+      "session_ids": [
+        "ses_20260630-121953-LAPTOP-R36BQBTE",
+        "ses_20260630-124826-CHAITANYA0BCF",
+        "ses_20260630-125757-LAPTOP-R36BQBTE",
+        "ses_20260630-131729-CHAITANYA0BCF",
+        "ses_20260630-132737-LAPTOP-R36BQBTE",
+        "ses_20260630-135201-LAPTOP-R36BQBTE",
+        "ses_20260630-135451-CHAITANYA0BCF",
+        "ses_20260630-145433-JAYESH",
+        "ses_20260630-163424-SIDDHIGUPTAB00B",
+        "ses_20260630-164418-MSI",
+        "ses_20260701-005920-yuvraj",
+        "ses_20260701-014804-yuvraj",
+        "ses_20260701-022828-yuvraj",
+        "ses_20260701-030836-yuvraj",
+        "ses_20260701-032825-CHAITANYA0BCF",
+        "ses_20260701-035622-SIDDHIGUPTAB00B",
+        "ses_20260701-043922-SIDDHIGUPTAB00B",
+        "ses_20260701-051820-CHAITANYA0BCF",
+        "ses_20260701-051850-LAPTOP-R36BQBTE",
+        "ses_20260701-053005-MSI",
+        "ses_20260701-053720-SIDDHIGUPTAB00B",
+        "ses_20260701-054901-LAPTOP-R36BQBTE",
+        "ses_20260701-054930-CHAITANYA0BCF",
+        "ses_20260701-055037-Marcos",
+        "ses_20260701-055918-MSI",
+        "ses_20260701-062250-Marcos",
+        "ses_20260701-062732-MSI",
+        "ses_20260701-063106-LAPTOP-R36BQBTE",
+        "ses_20260701-065151-CHAITANYA0BCF",
+        "ses_20260701-070320-JAYESH",
+        "ses_20260701-071849-Marcos",
+        "ses_20260701-072319-MSI",
+        "ses_20260701-072435-CHAITANYA0BCF",
+        "ses_20260701-074424-SIDDHIGUPTAB00B",
+        "ses_20260701-075548-CHAITANYA0BCF",
+        "ses_20260701-075604-LAPTOP-0IM1OHQH",
+        "ses_20260701-081120-SIDDHIGUPTAB00B",
+        "ses_20260701-081732-CHAITANYA0BCF",
+        "ses_20260701-083656-LAPTOP-0IM1OHQH",
+        "ses_20260701-090300-Marcos",
+        "ses_20260701-092027-SIDDHIGUPTAB00B",
+        "ses_20260701-093900-Marcos",
+        "ses_20260701-095337-LAPTOP-0IM1OHQH",
+        "ses_20260701-100550-Marcos",
+        "ses_20260701-103521-LAPTOP-0IM1OHQH",
+        "ses_20260701-103853-Marcos",
+        "ses_20260701-110548-LAPTOP-0IM1OHQH",
+        "ses_20260701-110917-Marcos",
+        "ses_20260701-115141-SIDDHIGUPTAB00B",
+        "ses_20260701-120612-Marcos",
+        "ses_20260701-120828-LAPTOP-0IM1OHQH",
+        "ses_20260701-123729-Marcos",
+        "ses_20260701-124033-SIDDHIGUPTAB00B",
+        "ses_20260701-124550-LAPTOP-0IM1OHQH",
+        "ses_20260701-124636-MSI",
+        "ses_20260701-131015-SIDDHIGUPTAB00B",
+        "ses_20260701-131247-MSI",
+        "ses_20260701-134215-SIDDHIGUPTAB00B",
+        "ses_20260701-141430-SIDDHIGUPTAB00B",
+        "ses_20260701-145907-MSI",
+        "ses_20260701-152030-CHAITANYA0BCF",
+        "ses_20260701-155031-CHAITANYA0BCF",
+        "ses_20260701-172430-yuvraj"
+      ],
+      "operator_ids": [
+        "sha256:17f2f99c91d24510",
+        "sha256:26a9315536f278cb",
+        "sha256:35e51967ae3690fe",
+        "sha256:8c2ea5ba76c042f4",
+        "sha256:a923851a89cbde9a",
+        "sha256:aecb19b4a40c0ff3",
+        "sha256:c70cd83c6c76a7ff",
+        "sha256:f641fe08e2392046"
+      ],
+      "machine_ids": [
+        "CHAITANYA0BCF",
+        "JAYESH",
+        "LAPTOP-0IM1OHQH",
+        "LAPTOP-R36BQBTE",
+        "MSI",
+        "Marcos",
+        "SIDDHIGUPTAB00B",
+        "yuvraj"
+      ],
+      "duration_seconds": 105871.445
+    },
+    "dataset_b": {
+      "effective_roots": [
+        "dataset_b"
+      ],
+      "sessions": 15,
+      "chunks": 20,
+      "file_counts": {
+        "screenshots/*": 4746,
+        "events.jsonl": 20,
+        "manifest.json": 20
+      },
+      "event_count": 20477,
+      "gt_record_count": 0,
+      "event_types": {
+        "screenshot_smart": 4759,
+        "keystroke": 4678,
+        "mouse_click": 2133,
+        "browser_click": 1914,
+        "mouse_scroll": 1724,
+        "app_switch": 1654,
+        "shortcut": 1386,
+        "clipboard_change": 872,
+        "browser_form_input": 608,
+        "browser_navigation": 204,
+        "window_title_change": 186,
+        "window_state_change": 120,
+        "text_input_complete": 77,
+        "extension_connected": 42,
+        "extension_disconnected": 42,
+        "browser_error": 38,
+        "session_start": 15,
+        "session_end": 15,
+        "upload_started": 5,
+        "upload_completed": 4,
+        "mouse_double_click": 1
+      },
+      "layers": {
+        "L2": 12831,
+        "L1": 4759,
+        "L3": 2764,
+        "SYSTEM": 123
+      },
+      "applications": {
+        "Microsoft Edge": 13300,
+        "Microsoft Word": 3704,
+        "Microsoft Excel": 1201,
+        "OpenWith": 757,
+        "Notepad": 599,
+        "WindowsTerminal": 407,
+        "procmine-desktop-agent": 205,
+        "Windows Explorer": 78,
+        "ms-teams": 73,
+        "prl_cc": 28
+      },
+      "operators": 4,
+      "machines": 4,
+      "events_with_extracted_text": 939,
+      "screenshot_references": 4759,
+      "out_of_order_events": 2922,
+      "duplicate_event_ids": 0,
+      "duplicate_event_content": 0,
+      "session_id_mismatches": 0,
+      "timestamp_ms_iso_mismatches": 0,
+      "missing_expected_event_keys": {},
+      "session_ids": [
+        "ses_20260701-164424-CHAITANYA0BCF",
+        "ses_20260701-171614-CHAITANYA0BCF",
+        "ses_20260701-173246-SIDDHIGUPTAB00B",
+        "ses_20260701-173642-NEELA9BAF",
+        "ses_20260701-175258-LAPTOP-76QMG9DE",
+        "ses_20260701-175747-SIDDHIGUPTAB00B",
+        "ses_20260701-180923-NEELA9BAF",
+        "ses_20260701-181413-LAPTOP-76QMG9DE",
+        "ses_20260701-181913-SIDDHIGUPTAB00B",
+        "ses_20260701-182634-NEELA9BAF",
+        "ses_20260701-183232-LAPTOP-76QMG9DE",
+        "ses_20260701-184201-LAPTOP-76QMG9DE",
+        "ses_20260701-190250-NEELA9BAF",
+        "ses_20260701-191537-LAPTOP-76QMG9DE",
+        "ses_20260701-192455-NEELA9BAF"
+      ],
+      "operator_ids": [
+        "sha256:5366a159add2c670",
+        "sha256:833b46e4bddf9c19",
+        "sha256:a923851a89cbde9a",
+        "sha256:c70cd83c6c76a7ff"
+      ],
+      "machine_ids": [
+        "CHAITANYA0BCF",
+        "LAPTOP-76QMG9DE",
+        "NEELA9BAF",
+        "SIDDHIGUPTAB00B"
+      ],
+      "duration_seconds": 10295.383
+    }
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-121953-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1200"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-121953-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1200"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-121953-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-121953-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-124826-CHAITANYA0BCF",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-124826-CHAITANYA0BCF",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-124826-CHAITANYA0BCF",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-124826-CHAITANYA0BCF",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-125757-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-125757-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1230"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-125757-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-125757-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-132737-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-132737-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1300"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-132737-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-132737-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135201-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135201-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135201-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1400"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135201-LAPTOP-R36BQBTE",
+      "chunk": "chunk_1400"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135451-CHAITANYA0BCF",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-135451-CHAITANYA0BCF",
+      "chunk": "chunk_1330"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-145433-JAYESH",
+      "chunk": "chunk_1430"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-145433-JAYESH",
+      "chunk": "chunk_1430"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-163424-SIDDHIGUPTAB00B",
+      "chunk": "chunk_1630"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260630-163424-SIDDHIGUPTAB00B",
+      "chunk": "chunk_1630"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-032825-CHAITANYA0BCF",
+      "chunk": "chunk_0300"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-032825-CHAITANYA0BCF",
+      "chunk": "chunk_0300"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-035622-SIDDHIGUPTAB00B",
+      "chunk": "chunk_0330"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-035622-SIDDHIGUPTAB00B",
+      "chunk": "chunk_0330"
+    },
+    {
+      "type": "missing_events.jsonl",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-043922-SIDDHIGUPTAB00B",
+      "chunk": "chunk_0430"
+    },
+    {
+      "type": "missing_manifest.json",
+      "dataset": "dataset_a",
+      "session": "ses_20260701-043922-SIDDHIGUPTAB00B",
+      "chunk": "chunk_0430"
+    },
+    {
+      "type": "overlapping_chunks",
+      "dataset": "dataset_b",
+      "session": "ses_20260701-175258-LAPTOP-76QMG9DE",
+      "previous_chunk": "chunk_20260701-1730-LAPTOP-76QMG9DE",
+      "current_chunk": "chunk_20260701-1800-LAPTOP-76QMG9DE",
+      "overlap_ms": 330
+    }
+  ],
+  "unclassified_files": 3,
+  "member_paths_indexed": 39712
+}
