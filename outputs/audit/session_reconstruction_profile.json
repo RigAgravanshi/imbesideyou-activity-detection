@@ -1,0 +1,15 @@
+{
+  "sessions": 78,
+  "sessions_by_dataset": {
+    "dataset_a": 63,
+    "dataset_b": 15
+  },
+  "chunks": 137,
+  "events": 183245,
+  "activity_events": 182668,
+  "recorder_events": 577,
+  "duplicate_events_removed": 0,
+  "conflicting_event_ids": 0,
+  "timestamp_reversals": 18154,
+  "ground_truth_fragments": 2009
+}
